@@ -14,7 +14,8 @@ end
 
 def take_a_number(katz_deli,name)
   
-  puts "#{}"
+  katz_deli.push(name)
+    puts "#{name} your place in line is #{katz_deli.length}"
 
 
 end
